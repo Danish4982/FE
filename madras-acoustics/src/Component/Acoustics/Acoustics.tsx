@@ -3,7 +3,7 @@ import React from "react";
 const sections = [
   {
     title: "Acoustics",
-    image: `${process.env.PUBLIC_URL}/images/acoustics-photoroom.png`,
+    image: `${process.env.PUBLIC_URL}/images/acoustics-Photoroom.png`,
     content: "Architectural acoustics shape how we experience sound. A well-designed space enhances clarity, balance, and depth while preventing distortion, poor sound distribution, and costly corrections. Effective soundproofing ensures minimal noise interference. At Madras Acoustics, we use advanced prediction and auralization software like EASE to design optimal acoustic solutions. From recording studios to performance spaces, we blend aesthetics with acoustics to create immersive, high-quality sound environments",
     imageLeft: true, // Image on the left
   },
