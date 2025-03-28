@@ -40,7 +40,7 @@ body {
 
 .navbar.scrolled .nav-links a {
   color: #feffff;
-  background: linear-gradient(to right, #ffffff, #ffffff);
+  background: linear-gradient(to right, #160f29, #0c2340);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
