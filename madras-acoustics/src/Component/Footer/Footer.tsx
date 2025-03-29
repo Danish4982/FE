@@ -1,4 +1,12 @@
+import { useLocation, useNavigate } from "react-router-dom";
+
 export const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const handleLinkClick = (path: string) => {
+    navigate(path);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <footer className="footer">
       {/* Top Section - Logo & Navigation */}
@@ -20,14 +28,19 @@ export const Footer = () => {
         <nav aria-label="Footer Navigation">
           <ul className="footer-nav">
             {[
-               { path: "/", label: "Home" },
-               { path: "/acoustics", label: "Acoustics" },
-               { path: "/team", label: "Team" },
-               { path: "/software", label: "Software" },
-               { path: "/contact-us", label: "Contact Us" },
+              { path: "/", label: "Home" },
+              { path: "/acoustics", label: "Acoustics" },
+              { path: "/team", label: "Team" },
+              { path: "/software", label: "Software" },
+              { path: "/contact-us", label: "Contact Us" },
             ].map(({ path, label }) => (
               <li key={path}>
-                <a href={path}>{label}</a>
+                <a
+                  className={location.pathname === path ? "active" : ""}
+                  onClick={() => handleLinkClick(path)}
+                >
+                  {label}
+                </a>
               </li>
             ))}
           </ul>
