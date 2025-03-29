@@ -94,8 +94,8 @@ export const Home = () => {
           <p className="static-text">
             We bring precision acoustics to life, enhancing every sonic
             experience. From home theaters to studios,
-          </p>
-          <p className="static-text">
+          {/* </p>
+          <p className="static-text"> */}
             we create spaces where sound thrives.
           </p>
         </div>
@@ -116,7 +116,7 @@ export const Home = () => {
             <h2>ABOUT US</h2>
             {/* <h3 className="home-about"></h3> */}
 
-            <p>
+            <p >
               At Madras Acoustics, we craft immersive soundscapes and exceptional audiovisual environments. Since 2020,
               our expertise has shaped over 100 world-class projects — from professional music studios and concert auditoriums to
               luxury hotels, vibrant nightclubs, and elite home cinemas.
