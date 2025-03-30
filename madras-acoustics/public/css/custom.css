@@ -353,7 +353,7 @@ body {
 
 /* Title Styles */
 .hero-content h1 {
-  margin-top: 50px;
+  margin-top: 100px !important;
   font-size: clamp(22px, 4vw, 30px); /* Responsive text size */
   margin-bottom: 12px;
   font-weight: bold;
@@ -1320,7 +1320,7 @@ section h2 {
   color: #246a73;
 }
 
-.flip-card-front p {
+.flip-card-front span {
   font-size: 0.9rem;
   color: gray;
 }
@@ -1548,17 +1548,22 @@ section h2 {
   }
 }
 
-.residential-container {
+/* .residential-container {
   padding: 50px;
-  /* max-width: 1200px; */
   margin: auto;
-  /* margin-top: 7% !important; */
+} */
+
+
+.residential-container {
+  width: 90%;
+  margin: 50px auto;
 }
+
+
 
 
 .professional-container {
   width: 90%;
-  /* max-width: 1200px; */
   margin: 50px auto;
 }
 
@@ -1613,7 +1618,7 @@ section h2 {
   margin-top: 20px;
   font-size: 1.1rem;
   color: #f0f0f0;
-  text-align: left;
+  text-align: justify;
 }
 
 /* Service Image */
@@ -1684,7 +1689,7 @@ section h2 {
 
   .service-content p {
     font-size: 1rem;
-    text-align: left;
+    text-align: justify;
   }
 
   .service-image {
@@ -2310,6 +2315,7 @@ section h2 {
 /* Heading */
 .software-content h1 {
   font-size: clamp(22px, 4vw, 30px);
+  margin-top: 120px;
   margin-bottom: 12px;
   font-weight: bold;
   font-family: 'Cinzel', serif;

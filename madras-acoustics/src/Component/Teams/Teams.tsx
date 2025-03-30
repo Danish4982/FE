@@ -72,7 +72,7 @@ export const Teams: React.FC = () => {
                   <div className="flip-card-front">
                     <img src={member.image} alt={member.name} className="team-img" />
                     <h5>{member.name}</h5>
-                    <p>{member.role}</p>
+                    <span>{member.role}</span>
                   </div>
                   
                   {/* Back Side */}
