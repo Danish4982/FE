@@ -6,7 +6,7 @@ const testimonials = [
     id: 1,
     name: "Vasanth",
     role: "Musicious Studio",
-    image: `${process.env.PUBLIC_URL}/images/acoustic-1.jpeg`,
+    image: `${process.env.PUBLIC_URL}/images/client-boy-1.png`,
     stars: "★★★★★",
     text: "Vasanth's studio experience was transformed with our expert acoustic treatments and soundproofing solutions, delivering top-notch sound quality for his productions.",
   },
@@ -15,7 +15,7 @@ const testimonials = [
     name: "FR Johnson",
     role: "Home Studio Setup",
     stars: "★★★★",
-    image: `${process.env.PUBLIC_URL}/images/acoustic-1.jpeg`,
+    image: `${process.env.PUBLIC_URL}/images/client-boy-2.png`,
     text: "FR Johnson upgraded his home studio with our customized acoustic solutions, ensuring a professional sound environment that meets his recording needs.",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Paul - Sound Engineer",
     role: "Bee Studios",
     stars: "★★★★",
-    image: `${process.env.PUBLIC_URL}/images/acoustic-1.jpeg`,
+    image: `${process.env.PUBLIC_URL}/images/client-boy-3.png`,
     text: "Paul, an experienced sound engineer, enhanced his studio’s acoustics with our solutions, achieving precision sound mixing and mastering capabilities.",
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     name: "Praveen - Drummer",
     role: "Home Studio Setup",
     stars: "★★★★★",
-    image: `${process.env.PUBLIC_URL}/images/acoustic-1.jpeg`,
+    image: `${process.env.PUBLIC_URL}/images/client-4.jpg`,
     text: "Praveen’s home studio was transformed into a drummer-friendly space with our soundproofing and acoustic optimization, ensuring crystal-clear beats.",
   },
   {
@@ -39,7 +39,7 @@ const testimonials = [
     name: "Sharon Paul - Sound Engineer",
     role: "Hosanna Ministries",
     stars: "★★★★★",
-    image: `${process.env.PUBLIC_URL}/images/acoustic-1.jpeg`,
+    image: `${process.env.PUBLIC_URL}/images/client-5.jpg`,
     text: "Sharon Paul’s sound engineering at Hosanna Ministries reached new heights with our acoustic treatment, enhancing live sound clarity and recording quality.",
   },
 ];
