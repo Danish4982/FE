@@ -78,8 +78,7 @@ export const Teams: React.FC = () => {
                   {/* Back Side */}
                   <div className="flip-card-back">
                     <h5>{member.name}</h5>
-                    <br/>
-                    <p className="flip-role">{member.role}</p>
+                    <i className="flip-role">{member.role}</i>
                     <span className="flip-about">{member.about}</span>
                   </div>
                 </div>

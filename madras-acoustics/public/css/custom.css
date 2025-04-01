@@ -1343,7 +1343,9 @@ section h2 {
 .flip-role {
   font-size: 1rem;
   font-weight: bold;
-  color:#ddd9d9
+  color:#ddd9d9;
+  padding-top: 10px;
+  padding-bottom:  10px;
 }
 
 .flip-about {
