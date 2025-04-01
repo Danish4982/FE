@@ -80,7 +80,7 @@ export const Teams: React.FC = () => {
                     <h5>{member.name}</h5>
                     <br/>
                     <p className="flip-role">{member.role}</p>
-                    <p className="flip-about">{member.about}</p>
+                    <span className="flip-about">{member.about}</span>
                   </div>
                 </div>
               </div>
