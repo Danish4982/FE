@@ -24,7 +24,7 @@ body {
   font-size: large !important;
   font-weight: 500 !important;
   user-select: none;
-  background-color: #2C2C2C;
+  background-color:#151515;
 }
 
 
@@ -599,7 +599,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(#246a73,#160f29);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   color: white;
   padding: 20px 10%;
   font-family: 'Poppins', sans-serif;
@@ -1340,7 +1343,9 @@ section h2 {
 .flip-role {
   font-size: 1rem;
   font-weight: bold;
-  color:#ddd9d9
+  color:#ddd9d9;
+  padding-top: 10px;
+  padding-bottom:  10px;
 }
 
 .flip-about {
