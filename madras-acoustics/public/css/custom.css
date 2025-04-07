@@ -111,7 +111,7 @@ body {
 .logo-text {
   font-size: clamp(14px, 3.5vw, 26px); /* More flexibility */
   font-weight: bold;
-  font-family: 'Cinzel', serif;
+  font-family:'Playfair Display', serif;
   background: linear-gradient(#430131,#b1506f,#642037);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -126,7 +126,7 @@ body {
 .logo-text-down {
   margin-left: -80px;
   font-size: clamp(8px, 2vw, 11px);
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display', serif;
   background: linear-gradient(#160f29, #0c2340);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -200,7 +200,7 @@ body {
   transition: all 0.3s ease-in-out;
   color: #feffff;
   font-size: large;
-  font-family: 'Poppins', sans-serif;
+  font-family:'Playfair Display', serif;
   font-weight: 500;
 }
 
@@ -320,7 +320,7 @@ body {
 
 
 .contact-page {
-  font-family: 'Poppins', sans-serif;
+  font-family:'Playfair Display', serif;
 }
 
 .hero-image {
@@ -357,7 +357,7 @@ body {
   font-size: clamp(22px, 4vw, 30px); /* Responsive text size */
   margin-bottom: 12px;
   font-weight: bold;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display', serif;
   color: #0f8896;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   letter-spacing: 2px;
@@ -605,7 +605,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   color: white;
   padding: 20px 10%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   min-height: 100px;
 }
 
@@ -630,7 +630,7 @@ body {
 .footer-company-name {
   font-size: 32px !important;
   font-weight: bold;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display', serif;
   background: linear-gradient(#430131,#b1506f,#642037);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -897,7 +897,7 @@ body {
   width: 90%;
   /* max-width: 1200px; */
   margin: 50px auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   /* margin-top: 10% !important; */
 }
 
@@ -961,7 +961,7 @@ body {
 
 .acoustic-text p {
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #f0f0f0;
 }
@@ -1068,7 +1068,7 @@ section h2 {
 .teams-container {
   width: 90%;
   margin: 50px auto;
-  font-family: Arial, sans-serif;
+  font-family:'Playfair Display', serif;
 }
 
 /* About Us Section */
@@ -1112,7 +1112,7 @@ section h2 {
 .about-text h1 {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
   font-weight: bold;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display', serif;
   background: linear-gradient(#430131,#b1506f,#642037);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1149,7 +1149,7 @@ section h2 {
 }
 
 .about-text p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #f0f0f0;
   margin-top: 15px;
@@ -1160,7 +1160,7 @@ section h2 {
   color:#0f8896;
   display: block;
   margin-top: 15px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   transform: skewX(-5deg);
   letter-spacing: 1.2px;
@@ -1234,7 +1234,7 @@ section h2 {
   }
 
   .about-text p {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .about-text b {
@@ -1462,7 +1462,7 @@ section h2 {
   width: 90%;
   /* max-width: 1200px; */
   margin: 50px auto;
-  font-family: 'Poppins', sans-serif;
+ font-family:'Playfair Display', serif;
   /* margin-top: 10% !important; */
 }
 
@@ -1527,7 +1527,7 @@ section h2 {
 
 .software-text p{
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #f0f0f0;
 }
@@ -2323,7 +2323,7 @@ section h2 {
   margin-top: 120px;
   margin-bottom: 12px;
   font-weight: bold;
-  font-family: 'Cinzel', serif;
+ font-family:'Playfair Display', serif;
   color: #0f8896;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   letter-spacing: 2px;
@@ -2336,7 +2336,7 @@ section h2 {
 .software-content p {
   font-size: clamp(14px, 2.5vw, 18px);
   font-style: italic;
-  font-family: 'Playfair Display', serif;
+ font-family:'Playfair Display', serif;
   color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   letter-spacing: 1.2px;
@@ -2466,7 +2466,7 @@ section h2 {
 
 .static-text {
   font-size: 1.2rem;
-  font-family: "Playfair Display", serif;
+ font-family:'Playfair Display', serif;
   margin-top: 20px; /* Ensure proper spacing between lines */
   color: rgb(197, 195, 195);
   font-style: italic;
@@ -2751,7 +2751,7 @@ section h2 {
 .logo-text1-down {
   margin-left: -80px;
   font-size: 12px;
-  font-family: 'Cinzel', serif;
+ font-family:'Playfair Display', serif;
   background: linear-gradient(#160f29, #021834);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2833,7 +2833,7 @@ section h2 {
   font-size: clamp(22px, 4vw, 30px); /* Responsive font size */
   margin-bottom: 12px;
   font-weight: bold;
-  font-family: 'Cinzel', serif;
+  font-family: 'Playfair Display', serif;
   color: #0f8896;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   letter-spacing: 2px;
