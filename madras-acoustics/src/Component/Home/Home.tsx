@@ -47,7 +47,7 @@ const testimonials = [
 
 
 export const Home = () => {
-  const fullText = "Engineering Excellence in Sound & Silence";
+  const fullText = "Madras Acoustics - Sound Perfected";
   const [text, setText] = useState("");
   const [typewriterIndex, setTypewriterIndex] = useState(0);
   const [carouselIndex, setCarouselIndex] = useState(0);
@@ -92,7 +92,7 @@ export const Home = () => {
         <div className="home-overlay">
           <h1 className="typewriter">{text}</h1>
           <p className="static-text">
-            We bring precision acoustics to life, enhancing every sonic
+          Engineering Excellence in Sound & Silence, We bring precision acoustics to life, enhancing every sonic
             experience. From home theaters to studios,
           {/* </p>
           <p className="static-text"> */}
