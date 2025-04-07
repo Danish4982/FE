@@ -112,7 +112,7 @@ body {
   font-size: clamp(14px, 3.5vw, 26px); /* More flexibility */
   font-weight: bold;
   font-family:'Playfair Display', serif;
-  background: linear-gradient(#430131,#b1506f,#642037);
+  background: linear-gradient(#1d0168,#771f3b,#290877);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 1.2px;
