@@ -40,7 +40,7 @@ export const Header = () => {
           <img src={`${process.env.PUBLIC_URL}/images/madrasAcousticsIconn-removebg-preview.png`} alt="logo" />
           <div className="logo-text-wrapper">
             <span className="logo-text">Madras Acoustics</span>
-            <span className="logo-text-down">Sound. Perfected.</span>
+            <span className="logo-text-down">Sound Perfected</span>
           </div>
         </div>
       </div>
