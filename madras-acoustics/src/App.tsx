@@ -12,7 +12,7 @@ import { Home } from "./Component/Home/Home";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/FE/">
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
